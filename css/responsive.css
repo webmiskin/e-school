@@ -1,0 +1,112 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .successarea .second-row {
+    flex-direction: column-reverse;
+  }
+
+  .customer-title .row {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .customer-card .row {
+    gap: 20px;
+  }
+
+  .work {
+    margin-top: 40px;
+  }
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .hero-ctn {
+    width: 500px;
+  }
+
+  .hero-ctn h1 {
+    font-size: 65px;
+  }
+
+  .hero-ctn p {
+    font-size: 23px;
+  }
+
+  .successarea .second-row {
+    flex-direction: column-reverse;
+  }
+
+  .work {
+    margin-top: 40px;
+  }
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+  .hero-ctn {
+    width: 300px;
+  }
+
+  .hero-ctn h1 {
+    font-size: 62px;
+  }
+
+  .hero-ctn p {
+    font-size: 21px;
+  }
+
+  .success-lf h3 {
+    font-size: 27px;
+  }
+
+  .successarea .row {
+    gap: 30px;
+  }
+
+  .successarea .second-row {
+    flex-direction: column-reverse;
+  }
+
+  .customer-area {
+    margin: 52px 0;
+  }
+
+  .title-lf h3 {
+    font-size: 22px;
+  }
+
+  .title-rf img {
+    width: 100px;
+  }
+
+  .customer-title .row {
+    gap: 50px;
+  }
+
+  .customer-card .row {
+    gap: 20px;
+  }
+  .work {
+    margin-top: 40px;
+  }
+}
